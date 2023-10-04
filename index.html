@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Project</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        nav{
+            display: flex;
+            justify-content: space-between;
+            background-color: rgb(32, 31, 31);
+            color: white;
+            /* font-family: 'Poppins', sans-serif; */
+        }
+        ul{
+            display: flex;
+            list-style: none;
+            gap: 30px;
+            font-size: 1.3rem;
+            align-items: center;
+            margin-right: 23px;
+            color: orange;
+            font-family: 'Poppins', sans-serif;
+            font-weight: bold;
+            flex-wrap: wrap;
+            
+
+        }
+        main{
+            /* height: 80vh; */
+            /* display: flex; */
+           
+        }
+        footer{
+            display: flex;
+            background-color: rgb(32, 31, 31);
+            color: orange;
+            font-family: 'Poppins', sans-serif;
+            justify-content: center;
+            gap: 70px;
+            line-height: 30px;
+            padding: 18px;
+
+        }
+        header{
+            background-image: url(../pictures/360_F_86561234_8HJdzg2iBlPap18K38mbyetKfdw1oNrm.jpg), linear-gradient(gray, black);
+            height: 300px;
+            /* width: 1000px; */
+            background-repeat: no-repeat;
+            /* width: 1000px; */
+            color: yellow;
+            font-family: 'Poppins', sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+        }
+        header p{
+            width: 330px;
+        }
+
+        .items{
+            width: 300px;
+            text-align: center;
+            box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+            margin-bottom: 17px;
+            flex-wrap: wrap;
+            
+        }
+        .items button{
+            background-color: yellow;
+            color: rgb(206, 20, 20);
+            border: none;
+            height: 40px;
+            width: 100px;
+            cursor: pointer;
+        }
+
+        .rows{
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        @media(max-width:603px){
+            header{
+                width: 100%;
+            }
+            .rows{
+                flex-wrap: wrap;
+            }
+            main{
+                /* height: 230vh; */
+            }
+
+
+        }
+
+        
+
+
+    </style>
+</head>
+<body>
+    <!-- -------------------------------- -->
+  <nav>
+
+    <img src="../image/channel-1.jpeg" alt="error">
+
+    <ul>
+        <li>Home</li>
+        <li>Register</li>
+        <li>Login</li>
+    </ul>
+
+
+  </nav>
+
+  <!-- ------------------------------------------------ -->
+
+  <header>
+
+
+
+    <h2>Fashion Mart</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor ullam repellat, amet provident incidunt libero nemo facilis dolore hic repudiandae.</p>
+
+
+
+
+
+
+  </header>
+ 
+ 
+
+<!-- -------------------------------------------------- -->
+<main>
+
+<div class="rows">
+
+    <div class="items"><img src="../pictures/fond-of-mens-cotton-shirts.jpg" width="200px" alt="">
+    
+        <h3>Model-1</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid eum possimus vero illum nesciunt?</p>
+        <button>Add</button>
+        
+        </div>
+
+        <div class="items"><img src="../pictures/fond-of-mens-cotton-shirts.jpg" width="200px" alt="">
+    
+            <h3>Model-1</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid eum possimus vero illum nesciunt?</p>
+            <button>Add</button>
+            
+            </div>
+
+            <div class="items"><img src="../pictures/fond-of-mens-cotton-shirts.jpg" width="200px" alt="">
+    
+                <h3>Model-1</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid eum possimus vero illum nesciunt?</p>
+                <button>Add</button>
+                
+                </div>
+
+</div>
+
+
+
+
+
+<div class="rows">
+
+    <div class="items"><img src="../pictures/fond-of-mens-cotton-shirts.jpg" width="200px" alt="">
+    
+        <h3>Model-1</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid eum possimus vero illum nesciunt?</p>
+        <button>Add</button>
+        
+        </div>
+        <div class="items"><img src="../pictures/fond-of-mens-cotton-shirts.jpg" width="200px" alt="">
+    
+            <h3>Model-1</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid eum possimus vero illum nesciunt?</p>
+            <button>Add</button>
+            
+            </div>
+
+            <div class="items"><img src="../pictures/fond-of-mens-cotton-shirts.jpg" width="200px" alt="">
+    
+                <h3>Model-1</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid eum possimus vero illum nesciunt?</p>
+                <button>Add</button>
+                
+                </div>
+
+</div>
+
+
+
+
+</main>
+
+
+<!-- ------------------------------------------------------------ -->
+<footer> 
+    <div>
+    <address>KPHB</address>
+    <address>Hyderabad</address>
+    <address>Telangana</address>
+    <address>andhra pradesh</address>
+    <address>mumbai</address>
+</div>
+<div>
+<address>9346601232</address>
+    <address>Contact</address>
+    <address>500028</address>
+</div>
+</footer>
+
+</body>
+</html>
